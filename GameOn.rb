@@ -1,9 +1,9 @@
-require 'pry'
+require_relative 'lib/card'
+require_relative 'lib/deck'
 require_relative 'lib/player'
 require_relative 'lib/cardgame'
 
-# New Deck
-game_deck = CardGame.new_deck
+game_deck = Deck.new.cards
 
 # Create Players
 list_of_players = [

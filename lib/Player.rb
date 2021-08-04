@@ -9,7 +9,7 @@ class Player
     end
 
     def total
-        return @card1[:value] + @card2[:value]
+        return @card1.value + @card2.value
     end
 
 end
